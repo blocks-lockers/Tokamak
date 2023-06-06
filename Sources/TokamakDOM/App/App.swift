@@ -56,7 +56,7 @@ public extension App {
     _ = body.appendChild!(div)
 
     ScenePhaseObserver.observe()
-    ColorSchemeObserver.observe(div)
+//    ColorSchemeObserver.observe(div)
   }
 
   static func _setTitle(_ title: String) {
